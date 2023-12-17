@@ -7,11 +7,11 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["splitkb_aurora_sweep_left"]'
-      kconfig: '["CONFIG_BT_CTLR_TX_PWR_PLUS_8=y", "MIRYOKU_ALPHAS=qwerty"]'
+      kconfig: '["CONFIG_BT_CTLR_TX_PWR_PLUS_8=y", "MIRYOKU_ALPHAS=QWERTY"]'
 
   build-right:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["splitkb_aurora_sweep_right", "MIRYOKU_ALPHAS=qwerty"]'
+      shield: '["splitkb_aurora_sweep_right", "MIRYOKU_ALPHAS=QWERTY"]'
