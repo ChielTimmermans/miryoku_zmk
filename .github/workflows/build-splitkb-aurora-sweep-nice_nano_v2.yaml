@@ -14,4 +14,5 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["splitkb_aurora_sweep_right", "MIRYOKU_ALPHAS=QWERTY"]'
+      shield: '["splitkb_aurora_sweep_right"]'
+      kconfig: '["MIRYOKU_ALPHAS=QWERTY"]'
